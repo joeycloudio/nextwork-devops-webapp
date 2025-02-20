@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  pre_build:
+    commands:
+      - echo Initializing environment
+      - export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain arn:aws:codeartifact:us-west-2:273354636904:repository/nextwork/nextwork-packages --domain-owner 273354636904 --query authorizationToken --output text`
+  build:
+    commands:
+      - echo Build started on `date`
+      - mvn -s /home/ec2-user/nextwork-web-project/nextwork-devops-webapp/settings.xml compile
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mvn -s /home/ec2-user/nextwork-web-project/nextwork-devops-webapp/settings.xml package
+artifacts:
+  files:
+    - target/nextwork-web-project.war
+  discard-paths: no
