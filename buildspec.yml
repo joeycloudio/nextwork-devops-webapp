@@ -11,11 +11,12 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - cd /home/ec2-user/nextwork-web-project/nextwork-devops-webapp
+      - cd $CODEBUILD_SRC_DIR
       - mvn -s settings.xml compile
   post_build:
     commands:
       - echo Build completed on `date`
+      - cd $CODEBUILD_SRC_DIR
       - mvn -s /home/ec2-user/nextwork-web-project/nextwork-devops-webapp/settings.xml package
 artifacts:
   files:
