@@ -11,6 +11,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - ls -l /home/ec2-user/nextwork-web-project/nextwork-devops-webapp/settings.xml
       - mvn -s /home/ec2-user/nextwork-web-project/nextwork-devops-webapp/settings.xml compile
   post_build:
     commands:
