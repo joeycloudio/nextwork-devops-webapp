@@ -1,6 +1,6 @@
 # CI/CD Pipeline & DevOps Automation with AWS
 
-![CI:CD Pipeline Success.png](CI:CD Pipeline Success.png)
+![CI-CD Pipeline Success.png](CI-CD Pipeline Success.png)
 
 ## Overview
 This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application. The pipeline integrates AWS CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact, enabling seamless software deployment and automation.
