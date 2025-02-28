@@ -1,6 +1,12 @@
-# Java Web App Deployment with AWS CI/CD
+# CI/CD Pipeline & DevOps Automation with AWS
 
 Welcome to this project combining Java web app development and AWS CI/CD tools!
+
+## Overview
+This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application. The pipeline integrates AWS CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact, enabling seamless software deployment and automation.
+
+## Goal
+Automate software release processes to streamline deployments, reduce errors, and ensure reliability.
 
 <br>
 
