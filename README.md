@@ -70,17 +70,17 @@ To set up this project on your local machine:
 <br>
 
 ## Key Learnings
-- Built a full CI/CD pipeline from scratch using AWS services.
-- Mastered GitHub integration with AWS CodePipeline.
-- Implemented automated deployments and rollback strategies with CodeDeploy.
-- Used CloudFormation to provision infrastructure automatically.
+✔️ Built a full CI/CD pipeline from scratch using AWS services.<br>
+✔️ Mastered GitHub integration with AWS CodePipeline.<br>
+✔️ Implemented automated deployments and rollback strategies with CodeDeploy.<br>
+✔️ Used CloudFormation to provision infrastructure automatically.
 
 <br>
 
 ## Future Enhancements
-- Add monitoring & logging with AWS CloudWatch.
-- Implement IAM security best practices for pipeline access control.
-- Extend the pipeline to support multi-environment deployments (Dev → Staging → Prod).
+📌 Add monitoring & logging with AWS CloudWatch.<br>
+📌 Implement IAM security best practices for pipeline access control.<br>
+📌 Extend the pipeline to support multi-environment deployments (Dev → Staging → Prod).
 
 <br>
 
