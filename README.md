@@ -55,7 +55,6 @@ To set up this project on your local machine:
     mvn install
     ```
 4. Deploy using AWS CodePipeline:
-
 - Connect GitHub to AWS CodePipeline.
 - Define build and deployment stages using AWS services.
 
