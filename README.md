@@ -39,8 +39,8 @@ This project showcases end-to-end CI/CD automation using AWS services.
 
 <br>
 
-## Setup
-To get this project up and running on your local machine, follow these steps:
+## Setup & Deployment
+To set up this project on your local machine:
 
 1. Clone the repository:
     ```bash
@@ -48,12 +48,16 @@ To get this project up and running on your local machine, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd nextwork-web-project
+    cd nextwork-devops-webapp
     ```
 3. Install dependencies:
     ```bash
     mvn install
     ```
+4. Deploy using AWS CodePipeline:
+
+Connect GitHub to AWS CodePipeline.
+Define build and deployment stages using AWS services.
 
 - **Troubleshooting Tip**: My connection timed out frequently, so I rebooted my EC2 instance and restarted VSCode more times than I’d like. This usually solved the issue, so I didn't investigate further (though an IP address change on my WiFi could have been the cause, it didn't seem to be). In fact, my connection dropped while writing this README at this exact point!
 
