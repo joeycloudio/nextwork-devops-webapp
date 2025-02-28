@@ -1,5 +1,7 @@
 # CI/CD Pipeline & DevOps Automation with AWS
 
+![AWS 3-Tier Architecture](AWS_3-Tier_Architecture_1.png)
+
 ## Overview
 This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application. The pipeline integrates AWS CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact, enabling seamless software deployment and automation.
 
