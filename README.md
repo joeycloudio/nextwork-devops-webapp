@@ -82,6 +82,7 @@ To set up this project on your local machine:
 
 <br>
 
-## Contact
-Email: [joeyacostax@gmail.com](mailto:joeyacostax@gmail.com)
-Linkedin: [LinkedIn](www.linkedin.com/in/joeyacosta)
+## **📬 Contact**
+--------------
+
+**📧 Email:** your-email@example.com**💼 LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
