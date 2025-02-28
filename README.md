@@ -29,20 +29,13 @@ This project showcases end-to-end CI/CD automation using AWS services.
 
 <br>
 
-## Technologies
-Here’s what I’m using for this project:
+## Technologies Used
 
-- **Amazon EC2**: I'm developing my web app on Amazon EC2 virtual servers, so that software development and deployment happens entirely on the cloud.
-- **VSCode**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
-- **GitHub**: All my web app code is stored and versioned in this GitHub repository.
-- **[COMING SOON] AWS CodeArtifact**: Once it's rolled out, CodeArtifact will store my artifacts and dependencies, which is great for high availability and speeding up my project's build process.
-- **[COMING SOON] AWS CodeBuild**: Once it's rolled out, CodeBuild will take over my build process. It'll compile the source code, run tests, and produce ready-to-deploy software packages automatically.
-- **[COMING SOON] AWS CodeDeploy**: Once it's rolled out, CodeDeploy will automate my deployment process across EC2 instances.
-- **[COMING SOON] AWS CodePipeline**: Once it's rolled out, CodePipeline will automate the entire process from GitHub to CodeDeploy, integrating build, test, and deployment steps into one efficient workflow.
-
-- **Challenges Faced**: My connection timed out frequently, so I rebooted my EC2 instance and restarted VSCode more times than I’d like. This usually solved the issue, so I didn't investigate further (though an IP address change on my WiFi could have been the cause, it didn't seem to be). In fact, my connection dropped while writing this README at this exact point!
-
-- The project mentioned that Git would prompt for a username and password, but I didn’t encounter that issue. My pushes were made as the EC2 user, and I was able to update my username. However, I wanted to log in with my credentials as described in the project. I dug around to check how my credentials were being stored using the git "config --global credential.helper store" command
+- Version Control: Git, GitHub
+- CI/CD Automation: AWS CodePipeline, CodeBuild, CodeDeploy, CodeArtifact
+- Infrastructure as Code (IaC): AWS CloudFormation
+- Development: VSCode, AWS EC2 (for development environment)
+- Automation & Scripting: AWS CLI
 
 <br>
 
