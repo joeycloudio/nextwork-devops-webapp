@@ -63,9 +63,9 @@ To set up this project on your local machine:
 <br>
 
 ## Challenges Faced
-⚠️ **Frequent EC2 connection timeouts** → Resolved by restarting VSCode and rebooting the instance. 
-⚠️ **Git authentication issue** → Explored credential storage with git config --global credential.helper store. 
-⚠️ **CodeArtifact Setup Delays** → Adjusted the pipeline to handle dependency storage efficiently.
+⚠️ Frequent EC2 connection timeouts → Resolved by restarting VSCode and rebooting the instance.<br>
+⚠️ Git authentication issue → Explored credential storage with git config --global credential.helper store.<br>
+⚠️ CodeArtifact Setup Delays → Adjusted the pipeline to handle dependency storage efficiently.
 
 <br>
 
