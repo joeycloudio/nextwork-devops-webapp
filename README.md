@@ -17,14 +17,15 @@ Automate software release processes to streamline deployments, reduce errors, an
 
 <br>
 
-## Introduction
-This project is used for an introduction to creating and deploying a Java-based web app using AWS, especially their CI/CD tools.
+## Project Overview
+This project showcases end-to-end CI/CD automation using AWS services.
+- Source Control: GitHub integration for version control.
+- Build Automation: AWS CodeBuild for compiling and packaging.
+- Artifact Management: AWS CodeArtifact for dependency storage.
+- Deployment Automation: AWS CodeDeploy for zero-downtime rollouts.
+- Infrastructure as Code (IaC): AWS CloudFormation for provisioning cloud resources.
 
-The deployment pipeline I'm building around the Java web app in this repository is invisible to the end-user, but makes a big impact by automating the software release processes.
-
-- I'm doing this project to complete all 7 of 7 DevOps projects in this NextWork project series and complete the CI/CD Pipeline project at the end.
-
-- CI/CD Pipeline will fill a major skills gap currently for me in my pursuit of a Cloud Engineer role!
+🔹 Impact: This pipeline ensures automated, consistent, and error-free deployments of a Java-based web app.
 
 <br>
 
