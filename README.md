@@ -86,6 +86,6 @@ To set up this project on your local machine:
 
 *   Email: joeyacostax@gmail.com
 
-*   [LinkedIn](www.linkedin.com/in/joeyacosta)
+*   [LinkedIn](https://www.linkedin.com/in/joeyacosta/)
     
 *   [Portfolio & Other AWS Projects](https://learn.nextwork.org/portfolio)
