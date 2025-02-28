@@ -58,20 +58,24 @@ To set up this project on your local machine:
 - Connect GitHub to AWS CodePipeline.
 - Define build and deployment stages using AWS services.
 
-- **Troubleshooting Tip**: My connection timed out frequently, so I rebooted my EC2 instance and restarted VSCode more times than I’d like. This usually solved the issue, so I didn't investigate further (though an IP address change on my WiFi could have been the cause, it didn't seem to be). In fact, my connection dropped while writing this README at this exact point!
-
 <br>
+
+## Challenges Faced
+- Frequent EC2 connection timeouts → Resolved by restarting VSCode and rebooting the instance.
+- Git authentication issue → Explored credential storage with git config --global credential.helper store.
+- CodeArtifact Setup Delays → Adjusted the pipeline to handle dependency storage efficiently.
+
+## Key Learnings
+- Built a full CI/CD pipeline from scratch using AWS services.
+- Mastered GitHub integration with AWS CodePipeline.
+- Implemented automated deployments and rollback strategies with CodeDeploy.
+- Used CloudFormation to provision infrastructure automatically.
+
+## Future Enhancements
+- Add monitoring & logging with AWS CloudWatch.
+- Implement IAM security best practices for pipeline access control.
+- Extend the pipeline to support multi-environment deployments (Dev → Staging → Prod).
 
 ## Contact
-If you have any questions or comments about the NextWork Web Project, please contact:
-Joey - [joeyacostax@gmail.com](mailto:joeyacostax@gmail.com)
-
-[LinkedIn](www.linkedin.com/in/joeyacosta)
-
-<br>
-
-## Conclusion
-Thank you for exploring this project! I'll continue to build this pipeline and apply my learnings to future projects.
-
-A big shoutout to **[NextWork](https://learn.nextwork.org/app)** for their project guide and support. [You can get started with this DevOps series project too by clicking here.](https://learn.nextwork.org/projects/aws-devops-vscode?track=high)
-
+Email: [joeyacostax@gmail.com](mailto:joeyacostax@gmail.com)
+Linkedin: [LinkedIn](www.linkedin.com/in/joeyacosta)
