@@ -9,11 +9,13 @@ Automate software release processes to streamline deployments, reduce errors, an
 <br>
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Setup](#setup)
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Setup & Deployment](#setup-&-deployment)
+- [Challenges Faced](#challenges-faced)
+- [Key Learnings](#key-learnings)
+- [Future Enhancements](#future-enhancements)
 - [Contact](#contact)
-- [Conclusion](#conclusion)
 
 <br>
 
