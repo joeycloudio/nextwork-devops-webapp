@@ -41,7 +41,7 @@ This project showcases end-to-end CI/CD automation using AWS services.
 
 <br>
 
-## Setup & Deployment
+## Setup and Deployment
 To set up this project on your local machine:
 
 1. Clone the repository:
