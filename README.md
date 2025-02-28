@@ -65,16 +65,22 @@ To set up this project on your local machine:
 - Git authentication issue → Explored credential storage with git config --global credential.helper store.
 - CodeArtifact Setup Delays → Adjusted the pipeline to handle dependency storage efficiently.
 
+<br>
+
 ## Key Learnings
 - Built a full CI/CD pipeline from scratch using AWS services.
 - Mastered GitHub integration with AWS CodePipeline.
 - Implemented automated deployments and rollback strategies with CodeDeploy.
 - Used CloudFormation to provision infrastructure automatically.
 
+<br>
+
 ## Future Enhancements
 - Add monitoring & logging with AWS CloudWatch.
 - Implement IAM security best practices for pipeline access control.
 - Extend the pipeline to support multi-environment deployments (Dev → Staging → Prod).
+
+<br>
 
 ## Contact
 Email: [joeyacostax@gmail.com](mailto:joeyacostax@gmail.com)
