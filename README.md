@@ -1,5 +1,5 @@
 # CI/CD Pipeline & DevOps Automation with AWS
-This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application.
+_This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application._
 
 ![architecture-complete.png](architecture-complete.png)
 
