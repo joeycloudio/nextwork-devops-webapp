@@ -1,35 +1,27 @@
 # CI/CD Pipeline & DevOps Automation with AWS
+This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application.
 
 ![architecture-complete.png](architecture-complete.png)
 
-## Overview
-This project is part of a 7-part DevOps series, where I implemented a fully automated CI/CD pipeline for an AWS-based web application. The pipeline integrates AWS CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact, enabling seamless software deployment and automation.
+## ⚠️ Problem Statment  
+Manual deployments are slow, error-prone, and can cause downtime.  
 
-## Goal
-Automate software release processes to streamline deployments, reduce errors, and ensure reliability.
+## 📈 Business Impact   
+✅ Eliminates manual deployments and speeds up software delivery.  
+✅ Reduces downtime & risk by testing infrastructure before deployment.  
+✅ Ensures dev/prod parity—code behaves the same in all environments.  
 
+## 🏢 How Companies Use This  
+Any company doing frequent deployments (e.g., SaaS companies, fintech) benefits from automated pipelines.
 <br>
 
 ## Table of Contents
-- [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Deployment](#setup-and-deployment)
 - [Challenges Faced](#challenges-faced)
 - [Key Learnings](#key-learnings)
 - [Future Enhancements](#future-enhancements)
 - [Contact](#contact)
-
-<br>
-
-## Project Overview
-This project showcases end-to-end CI/CD automation using AWS services.
-- Source Control: GitHub integration for version control.
-- Build Automation: AWS CodeBuild for compiling and packaging.
-- Artifact Management: AWS CodeArtifact for dependency storage.
-- Deployment Automation: AWS CodeDeploy for zero-downtime rollouts.
-- Infrastructure as Code (IaC): AWS CloudFormation for provisioning cloud resources.
-
-🔹 Impact: This pipeline ensures automated, consistent, and error-free deployments of a Java-based web app.
 
 <br>
 
